@@ -42,6 +42,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 50px;
+  flex: 1 1 300px;
 }
 
 .middle {
@@ -63,6 +64,7 @@ a {
 .cards {
   border: 5px solid red;
   display: flex;
+  flex-flow: row wrap;
   padding: 48px;
   gap: 25px;
 }
